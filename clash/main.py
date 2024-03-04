@@ -1,15 +1,14 @@
 import base64
 import requests
-import json
+from lxml import etree
 
 def ipQuery(ip):    
-    # 太平洋api接口
-    url = "http://whois.pconline.com.cn/ipJson.jsp?ip={}&json=true".format(ip)
+    url = "https://browserleaks.com/ip/" + ip
     req = requests.get(url).text
-    json1 = json.loads(req)
-    addr = json1["addr"]  #地址
+    html = etree.HTML(req)
+    addr = html.xpath('//img[@class="flag-icon"]/@title')  #地址
     # print(addr)
-    return addr.strip()
+    return addr[0].strip()
 
 with open('cf_ip.txt', 'r') as f:
     lines = f.readlines()
