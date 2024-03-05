@@ -1,4 +1,4 @@
 # 指定节点代理列表
 
 # MyList
-DOMAIN-SUFFIX,gemini.google.com
+DOMAIN,gemini.google.com
