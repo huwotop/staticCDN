@@ -1,9 +1,8 @@
 # 直连列表
-
-# MyList
 DOMAIN-SUFFIX,huwo.top
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-cn.com
 DOMAIN-SUFFIX,yxdr.com
 DOMAIN-SUFFIX,mbian.com
 DOMAIN-SUFFIX,qweather.net
@@ -14,3 +13,7 @@ DOMAIN-SUFFIX,xn--yhqu5zs87a.top
 DOMAIN-SUFFIX,tts-file.com
 DOMAIN-SUFFIX,bt1207so.top
 DOMAIN-SUFFIX,pc936.com
+DOMAIN-SUFFIX,fofa.info
+DOMAIN-SUFFIX,nosec.org
+DOMAIN-SUFFIX,jielong.co
+DOMAIN-SUFFIX,jingyanlib.com
