@@ -19,6 +19,6 @@ with open('jiedian.list', 'w') as f:
         for l in lines:
             ip = l.strip()
             addr = ipQuery(ip)
-            str = str + "vless://22a16011-ebdd-4af3-a317-3266fb70b091@"+ip+":443?encryption=none&security=tls&sni=cfpgvless.huwo.top&fp=randomized&type=ws&host=cfpgvless.huwo.top&path=%2F%3Fed%3D2048#"+addr+"\n"
+            str = str + "vless://3bd13558-f707-4f88-be35-ffd7cc9864fe@"+ip+":443?encryption=none&security=tls&sni=cfpgvless.huwo.top&fp=randomized&type=ws&host=cfpgvless.huwo.top&path=%2F%3Fed%3D2048#"+addr+"\n"
               
         f.write(base64.b64encode(str.encode('utf-8')).decode('utf-8'))
