@@ -1,2 +1,4 @@
-# 指定代理列表
-DOMAIN,gemini.google.com
+# 代理列表
+DOMAIN-SUFFIX,stboy.net
+DOMAIN,sou-tong.xyz
+DOMAIN,soutong.men
